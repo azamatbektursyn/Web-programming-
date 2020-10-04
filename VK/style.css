@@ -1,0 +1,275 @@
+body {
+	margin: 0;
+	background-color: #edeef0;
+
+	font-family: 'Roboto',sans-serif,arial,Tahoma,verdana;
+}
+
+.header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	height: 43px;
+	line-height: 43px;
+	background-color: #4a76a8;
+	display: block;
+	display: flex;
+	align-items:center;
+}
+
+.header .list{
+	width: 993px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+
+.header input {
+	margin-top: 7%;
+}
+
+.header input[type=text] {
+	background-image: url('https://vk.com/images/svg_icons/ic_head_loupe.svg');
+	background-position: 7.5px 7px; 
+    background-repeat: no-repeat;
+	background-color: hsl(212, 56.4%, 30.6%);
+    padding: 0 0 0 30px;
+	margin-left: 8em;
+	border-radius: 15px;
+	border: white 1px;
+	height: 29px;
+	margin-bottom: 10px;
+	width: 220px;
+	color: white;
+	font-size: 14px;
+	font-family: 'Roboto',sans-serif,arial,Tahoma,verdana;
+	font-weight: 300;
+	outline: 0;
+}
+
+.label-block {
+	width: 555px;
+	text-align: right;
+}
+
+.label-block #switch-label{
+	font-size: 12.5px;
+	font-family: 'Roboto',sans-serif;
+	font-weight: 705;
+	padding-right: 0;
+	text-align: right;
+}
+
+.content{
+	display: flex;
+	width: 991px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.left {
+	text-align: center;
+	width: 55%;
+	margin-left: 10px;
+	margin-right: 9%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.left .quotes{
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 26px;
+	text-align: center;
+	flex-wrap: nowrap;
+	display: flex;
+	justify-content: center;
+	margin-top: 44px;
+	flex-direction: column;
+
+}
+.quotes p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #626d7a;
+	line-height: 20px;
+} 
+
+.image-app{
+	display: flex;
+	justify-content: center;
+}
+
+.right{
+	margin-top: 30px;
+	width: 34%;
+	display: flex;
+}
+
+.form input[type=text]{
+	margin: 12px;
+	width: 270px;
+	height: 30px;
+	border: solid lightgrey 1px;
+	border-radius: 3px;
+	padding-left: 15px;
+}
+
+
+#phone-or-email{
+	margin-top: 25px;
+}
+
+.form {
+	display: inline-block;
+	border-radius: 5px;
+	text-align: center;
+	background-color: white;
+	width: 322px;
+	height: 191px;
+}
+.form input[type=button]{
+	padding: 9px 15px 9px 15px;
+	border-radius: 3px;
+	border: 0px;
+	font-size: 14px;
+	color: white;
+	background-color: #4a76a8;
+	width: 100px;
+	margin-right: 20px;
+}
+
+.form a{
+	font-size: 13px;
+	text-decoration: none;
+	margin-right: 50px;
+	color: #2a5885;
+}
+
+.image-app #android{
+	padding-left: 15px;
+}
+
+.image-app #iphone{
+	padding-right: 15px;
+}
+
+.image-app {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.images{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.links{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.links a{
+	padding: 40px;
+	font-size: 12px;
+	color: #2a5885;
+	text-decoration: none;
+}
+
+.register {
+	display: inline-block;
+	margin: 25px 0 0 0;
+	border-radius: 5px;
+	text-align: center;
+	background-color: white;
+	width: 320px;
+	height: 400px;
+}
+.register input[type=button]{
+	padding: 9px 15px 9px 15px;
+	border-radius: 3px;
+	border: 0px;
+	font-size: 14px;
+	color: white;
+	background-color: #4a76a8;
+	width: 100px;
+	margin-right: 20px;
+}
+
+.register  input[type=text]{
+	margin: 12px;
+	width: 270px;
+	height: 30px;
+	border: solid lightgrey 1px;
+	border-radius: 3px;
+	padding-left: 15px;
+	font-size: 14px;
+}
+
+.bday-selector select{
+	font-size: 14px;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px;
+	border: solid lightgrey 1px;
+}
+
+.bday-selector option {
+
+}
+
+.register p{
+	font-size: 13px;
+} 
+
+#bdate-text{
+	font-size: 13px;
+	font-weight: 505;
+	text-align: left;
+	color: grey;
+	padding-left: 22px;
+}
+
+
+.register-buttons button{
+	border: solid #4bb34b 2px;
+	border-radius: 4px;
+	padding: 10px 55px;
+	margin: 15px 0 0 0;
+	cursor: pointer;
+	color: white;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.register-buttons #next-button{
+	background-color: #4bb34b;
+}
+
+.register-buttons #fb-button{
+	background-color: #1b6dd1;
+	padding: 10px 70px;
