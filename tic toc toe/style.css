@@ -1,0 +1,63 @@
+body 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.borders
+{
+    background-image: linear-gradient(120deg, #000000 0%, #000000 100%);
+    
+    padding: 20px;
+    margin: 0 400px;
+}
+
+.game_desk 
+{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: 50px auto;
+    width: 306px;
+}
+
+.centering 
+{
+    text-align: center;
+}
+
+.status
+{
+    color: white;
+}
+
+.block 
+{
+    font-family: "Arial";
+    font-weight: 800;
+    font-size: 80px;
+    color: white;
+    width: 100px;
+    height: 100px;
+
+    border: 3px solid #fff;
+}
+
+
+.restart_game{
+    background-image: linear-gradient(120deg, #FF0000 0%, #FF0000 100%);
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: "Arial";
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.restart_game:hover{
+    background-image: linear-gradient(to top, #800000 0%, #800000 100%);
+    transition: 0.5s;
+    font-family: "Arial";
+    color: #f093fb;
+}
