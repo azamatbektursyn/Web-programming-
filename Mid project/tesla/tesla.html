@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tesla</title>
+	<link rel="stylesheet" type="text/css" href="tesla.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="media-queries.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="script.js" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+		<div id="sidebar">
+			<div class="toggle-btn" onclick="openMenu()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul>
+				<li>Menu</li>
+				<li>
+					<a href="tesla.html">
+						Home
+					</a> 
+				</li>
+				<li>
+					<a href="model_s.html">
+						Model S
+					</a>
+				</li>
+				<li>
+					<a href="model_x.html">
+						Model X
+					</a>
+				</li>
+				<li>
+					<a href="roadster.html">
+						Roadster
+					</a>
+				</li>
+				<li>
+					<a href="#footer-section">
+						Contact
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="logo">
+			<img src="tesla9.png" alt="logo" class="logo">
+		</div>
+		<div class="quote">
+			<p>
+				Tesla is here to stay and
+				keep fighting<br> for the electric car revolution
+			</p>
+			<p id="author">
+				Elon Musk
+			</p>
+		</div>
+		<div class="video-container">
+			<video autoplay loop muted >
+				<source src="video.MOV" type="video/mp4">
+			</video>
+		</div>
+		<div class="scroll-down"></div>
+	</header>
+	<section class="section1 column">
+		<div class="row">
+			<div class="par column">
+				<h3>
+					The Model S
+				</h3>
+				<p>
+					The model S is designed from the ground up to be the safest, fastest and most exciting sedan on the road
+				</p>
+				<div class="button">
+					<a href="model_s.html">
+						More on the Model S
+					</a>
+				</div>
+			</div>
+			<div class="img">
+				<img src="model-s.jpg" alt="model s">
+				<div class="image-overlay row">
+					<div class="column">
+						<p>
+							652 km
+						</p>
+						<p>
+							<span>
+								Range(WLTP)
+							</span>
+						</p>
+					</div>
+					<div class="column">
+						<p>
+							250 mph
+						</p>
+						<p>
+							<span>
+								Top Speed
+							</span>
+						</p>
+					</div>
+					<div class="column">
+						<p>
+							3.8 s
+						</p>
+						<p>
+							<span>
+								0-60mph
+							</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row reverse">
+			<div class="par column">
+				<h3>
+					The Model X
+				</h3>
+				<p>
+					The first electric crossover from the Tesla Corporation
+				</p>
+				<div class="button">
+					<a href="model_x.html">
+						More on the Model X
+					</a>
+				</div>
+			</div>
+			<div class="img">
+				<img src="model-x.jpg" alt="model s">
+				<div class="image-overlay row">
+					<div class="column">
+						<p>
+							561 km
+						</p>
+						<p>
+							<span>
+								Range(WLTP)
+							</span>
+						</p>
+					</div>
+					<div class="column">
+						<p>
+							250 mph
+						</p>
+						<p>
+							<span>
+								Top Speed
+							</span>
+						</p>
+					</div>
+					<div class="column">
+						<p>
+							4.6 s
+						</p>
+						<p>
+							<span>
+								0-60mph
+							</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="par column">
+				<h3>
+					The Roadster
+				</h3>
+				<p>
+					The fastest car in the world,with record acceleration, driving distance and performance
+				</p>
+				<div class="button">
+					<a href="roadster.html">
+						More on the Roadster
+					</a>
+				</div>
+			</div>
+			<div class="img">
+				<img src="roadster/roadster.jpg" alt="model s">
+				<div class="image-overlay row">
+					<div class="column">
+						<p>
+							620 km
+						</p>
+						<p>
+							<span>
+								Range(WLTP)
+							</span>
+						</p>
+					</div>
+					<div class="column">
+						<p>
+							250 mph
+						</p>
+						<p>
+							<span>
+								Top Speed
+							</span>
+						</p>
+					</div>
+					<div class="column">
+						<p>
+							1.9 s
+						</p>
+						<p>
+							<span>
+								0-60mph
+							</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="slide-section">
+		<div class="slider">
+			<div class="slides">
+				<input type="radio" name="r-btn"
+				id="r1" checked="checked">
+				<input type="radio" name="r-btn"
+				id="r2">
+				<input type="radio" name="r-btn"
+				id="r3">
+				<input type="radio" name="r-btn"
+				id="r4">
+				<input type="radio" name="r-btn"
+				id="r5">
+
+				<div class="slide first">
+					<img src="img1.jpg">
+				</div>
+				<div class="slide">
+					<img src="img2.jpg">
+				</div>
+				<div class="slide">
+					<img src="img3.jpg">
+				</div>
+				<div class="slide">
+					<img src="img4.jpg">
+				</div>
+				<div class="slide">
+					<img src="img5.jpg">
+				</div>
+
+				<div class="nav-auto">
+					<div class="auto-btn1"></div>
+					<div class="auto-btn2"></div>
+					<div class="auto-btn3"></div>
+					<div class="auto-btn4"></div>
+					<div class="auto-btn5"></div>
+				</div>
+				<div class="nav-manual">
+					<label for="r1" class="manual-btn "></label>
+					<label for="r2" class="manual-btn"></label>
+					<label for="r3" class="manual-btn"></label>
+					<label for="r4" class="manual-btn"></label>
+					<label for="r5" class="manual-btn"></label>
+				</div>
+			</div>
+		</div>
+		<script>
+			var count = 1;
+ 			setInterval(function(){
+ 				document.getElementById('r' + count).checked = true;
+ 				count++;
+ 				if(count > 5)
+ 					count = 1;
+ 			}, 5000);
+		</script>
+	</section>
+	<section>
+		<div class="row founder">
+			<img src="Elon_Musk.jpg" alt="Elon Musk">
+			<div class="column">
+				<h3>Tesla Inc.</h3>
+				<p>
+					Elon Musk co-founded and leads Tesla, SpaceX, Neuralink and The Boring Company.
+				</p>
+				<p>
+					As the co-founder and CEO of Tesla, Elon leads all product design, engineering and global manufacturing of the company's electric vehicles, battery products and solar energy products.
+				</p>
+				<p>	Since the company’s inception in 2003, Tesla’s mission has been to accelerate the world’s transition to sustainable energy. The first Tesla product, the Roadster sports car, debuted in 2008, followed by the Model S sedan, which was introduced in 2012, and the Model X SUV, which launched in 2015. Model S received Consumer Reports’ Best Overall Car and has been named the Ultimate Car of the Year by Motor Trend, while Model X was the first SUV ever to earn 5-star safety ratings in every category and sub-category in the National Highway Traffic Safety Administration’s tests
+				</p>
+			</div>
+		</div>
+	</section>
+	<section class="services">
+		<h3>SERVICES</h3>
+		<img src="services.jpg">
+	</section>
+	<footer>
+		<div class="footer row">
+			<a href="VK.html">Tesla © 2020</a>
+			<a href="#">Privacy & Legal</a>
+			<a href="#">Contact</a>
+			<a href="#">Careers</a>
+			<a href="#">Get Newsletter</a>
+			<a href="#">Forums</a>
+			<a href="#">Locations</a>
+		</div>
+		<div class="hr"></div>
+		<div class="license column">
+			<img src="logo.png">
+			<p>
+				Tesla inc - Holding company - A company under Dutch law, having its official seat in US, the US and its corporate address 45500 Fremont Boulevard Fremont, California 94538 , US, registered with the Dutch trade register under number 64060977
+			</p>
+			<p>
+				Tesla - A company under US law, having its registered office at Palo Alto, California, United States, VAT and Tax number 00159560366 and share capital of $22.5 billion 
+			</p>
+			<p id="footer-section">
+				Palo Alto, California, United States <br>
+				+7-708-115-33-42<br>
+				+7-747-469-02-94<br>
+				info@tesla.com
+			</p>
+			<p>     
+				Copyright 2020 - All rights reserved     
+			</p>
+		</div>
+	</footer>
+</body>
+</html>

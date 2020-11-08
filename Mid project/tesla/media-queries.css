@@ -1,0 +1,74 @@
+@media  only screen and (max-width: 1100px){
+	header video{
+		display: none;
+	}
+	header{
+		background: url('roadster/photo1.jpg') no-repeat top center / cover;
+	}
+}
+@media only screen and (max-width: 980px){
+	.row{
+		flex-direction: column;
+	}
+	.image-overlay{
+		display: none;
+	}
+	.founder{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.par{
+		width: 70%;
+	}
+	.par p{
+		text-align: center;
+	}
+	.founder img{
+		width: 80%;
+	}
+	.footer a{
+		font-size: 24px; 
+	}
+	.slider{
+		width: 500px;
+		height: 250px
+	}
+	.slide img{
+		width: 500px;
+		height: 250px;
+	}
+	.nav-manual{
+		width: 500px;
+		margin-top: 260px;
+	}
+}
+@media only screen and (max-width: 700px){
+	header{
+		background: url('model-s/hero.jpg') no-repeat top center / cover;
+	}
+	header .logo{
+		width: 80px;
+	}
+	.
+	.quote{
+		margin-top: 300px;
+	}
+	.license{
+		width: 300px;
+	}
+	.slider{
+		width: 300px;
+		height: 150px
+	}
+	.slide img{
+		width: 300px;
+		height: 150px;
+	}
+	.nav-manual{
+		width: 300px;
+		margin-top: 160px;
+	}
+	.manual-btn{
+		margin-left: 20px;
+	}
+}

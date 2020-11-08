@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="model_x.css">
+	<script src="script.js" defer></script>
+	<title>Model X</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<p>Model X</p>
+		<div class="img">
+			<img src="model-x/model_x.jpg" alt="model s">
+		</div>
+		<div class="logo">
+			<img src="tesla.png" alt="logo" class="logo">
+		</div>
+		<div id="sidebar">
+			<div class="toggle-btn" onclick="openMenu()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul>
+				<li>Menu</li>
+				<li>
+					<a href="tesla.html">
+						Home
+					</a> 
+				</li>
+				<li>
+					<a href="model_s.html">
+						Model S
+					</a>
+				</li>
+				<li>
+					<a href="model_x.html">
+						Model X
+					</a>
+				</li>
+				<li>
+					<a href="roadster.html">
+						Roadster
+					</a>
+				</li>
+				<li>
+					<a href="#footer-section">
+						Contact
+					</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<section>
+		<div class="config column">
+			<h4>Configuration</h4>
+			<div class="row">
+				<div class="column">
+					<input type="radio" value="74640" class="check" id="config1" name="configuration"
+					onclick="getAmount()" checked="checked">
+					<img src="model-x/config1.jpg">
+					<h5>Long Range Plus</h5>
+					<label class="check" for="config1"><span>$74,640</span></label>
+				</div>
+				<div class="column">
+					<input type="radio" value="94690" class="check" id="config2" name="configuration"
+					onclick="getAmount()">
+					<img src="model-x/config2.jpg">
+					<h5>Performance</h5>
+					<label class="check" for="config2"><span>$94,690</span></label>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="column size">
+			<h4>Color</h4>
+			<img id="car" src="model-x/color1.jpg">
+			<div class="row color-section">
+				<input type="radio" name="color" id="white" onclick="change('model-x')">
+			    <label for="white" class="white"></label>
+			    <input type="radio" name="color" id="black" onclick="change('model-x')">
+			    <label for="black" class="black"></label>
+			    <input type="radio" name="color" id="grey" onclick="change('model-x')">
+			    <label for="grey" class="grey"></label>
+			    <input type="radio" name="color" id="red" onclick="change('model-x')">
+			    <label for="red" class="red"></label>
+			    <input type="radio" name="color" id="blue" onclick="change('model-x')">
+			    <label for="blue" class="blue"></label>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="column size">
+			<h4>Interior</h4>
+			<img id="interior" src="model-x/interior1.jpg">
+			<div class="row interior-section">
+				<input type="radio" name="interior" id="leather1" onclick="changeInterior('model-x')">
+				<label for="leather1">
+					<img src="leather1.png">
+				</label>
+				<input type="radio" name="interior" id="leather2" onclick="changeInterior('model-x')">
+				<label for="leather2">
+					<img src="leather2.png">
+				</label>
+				<input type="radio" name="interior" id="leather3" onclick="changeInterior('model-x')">
+				<label for="leather3">
+					<img src="leather3.png">
+				</label>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="column size">
+			<h4>Number of Seats</h4>
+			<div class="row">
+				<div class="column space">
+					<input type="radio" value="0" class="check" id="seats1" name="numOfSeats"
+					onclick="getAmount()" checked="checked">
+					<img src="model-x/seats5.jpg">
+					<label class="check" for="seats1"><span>included</span></label>
+				</div>
+				<div class="column space">
+					<input type="radio" value="6500" class="check" id="seats2"name="numOfSeats"
+					onclick="getAmount()">
+					<img src="model-x/seats6.jpg">
+					<label class="check" for="seats2"><span>$6,500</span></label>
+				</div>
+				<div class="column space">
+					<input type="radio" value="3500" class="check" id="seats3" name="numOfSeats"
+					onclick="getAmount()">
+					<img src="model-x/seats7.jpg">
+					<label class="check" for="seats3"><span>$3.500</span></label>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section style="background-color: black">
+		<div class="column total">
+			<p>Your total sum</p>
+			<p id="amount">$74640</p>
+			<div class="button">
+				<a onclick="leaveAnOrder()">
+					RESERVE NOW
+				</a>
+			</div>
+		</div>
+		<div id="orderbar">
+			<ul>
+				<div class="close">
+					<img src="x.png" onclick="leaveAnOrder()">
+				</div>
+				<li>
+					<span>Leave a Request</span>
+				</li>
+				<li>
+					<input type="text" placeholder="Your Name">
+				</li>
+				<li>
+					<input type="text" placeholder="Your Phone Number">
+				</li>
+				<li>
+					<input type="text" placeholder="Your Email">
+				</li>
+				<li>
+					<input type="text" placeholder="Leave A Request">
+				</li>
+				<li>
+					<a href="">
+						SEND
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<footer>
+		<div class="hr"></div>
+		<div class="footer row">
+			<a href="VK.html">Tesla © 2020</a>
+			<a href="#">Privacy & Legal</a>
+			<a href="#">Contact</a>
+			<a href="#">Careers</a>
+			<a href="#">Get Newsletter</a>
+			<a href="#">Forums</a>
+			<a href="#">Locations</a>
+		</div>
+		<div class="license column">
+			<img src="logo.png">
+			<p>
+				Tesla inc - Holding company - A company under Dutch law, having its official seat in US, the US and its corporate address 45500 Fremont Boulevard Fremont, California 94538 , US, registered with the Dutch trade register under number 64060977
+			</p>
+			<p>
+				Tesla - A company under US law, having its registered office at Palo Alto, California, United States, VAT and Tax number 00159560366 and share capital of $22.5 billion 
+			</p>
+			<p id="footer-section">
+				Palo Alto, California, United States <br>
+				+7-708-115-33-42<br>
+				+7-747-469-02-94<br>
+				info@tesla.com
+			</p>
+			<p>     
+				Copyright 2020 - All rights reserved     
+			</p>
+		</div>
+	</footer>
+</body>
+</html>

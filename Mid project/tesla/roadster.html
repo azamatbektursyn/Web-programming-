@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="roadster.css">
+	<link rel="stylesheet" type="text/css" href="fullpage.min.css">
+	<script defer src="fullpage.min.js"></script>
+	<script defer src="script.js"></script>
+	<title>Roadster</title>
+</head>
+<body>
+	<div id="full-page">
+		<section class="section s1">
+			<div id="sidebar">
+			<div class="toggle-btn" onclick="openMenu()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul>
+				<li>Menu</li>
+				<li>
+					<a href="tesla.html">
+						Home
+					</a> 
+				</li>
+				<li>
+					<a href="model_s.html">
+						Model S
+					</a>
+				</li>
+				<li>
+					<a href="model_x.html">
+						Model X
+					</a>
+				</li>
+				<li>
+					<a href="roadster.html">
+						Roadster
+					</a>
+				</li>
+				<li>
+					<a href="#footer-section">
+						Contact
+					</a>
+				</li>
+			</ul>
+		</div>
+			<div class="container">
+				<h1>Roadster</h1>
+				<div class="description1">
+					<p>The quickest car in the world with record-setting acceleration,range and performance</p>
+				</div>
+				<div class="box">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			
+			<img src="tesla9.png" id="logo">
+		</section>
+		<section class="section s2">
+			<div class="container">
+				<div class="row performance">
+					<div class="column">
+						<div class="row">
+							<img src="roadster/speedometer.png">
+							<span>1.9s</span>
+						</div>
+						<p>
+							0-60 mph
+						</p>
+					</div>
+					<div class="column">
+						<span>+250 mph</span>
+						<p>
+							Top Speed
+						</p>
+					</div>
+					<div class="column">
+						<div class="row">
+							<img src="roadster/speedometer.png">
+							<span>4.2s</span>
+						</div>
+						<p>
+							0-100 mph
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section s3">
+			<div class="container movement">
+				<h3>Movement without boundaries</h3>
+				<p>
+					The main battery with a capacity of 200 kWh allows you to travel up to 1000 km per hour on a single charge
+				</p>
+			</div>
+		</section> 
+		<section class="section s4">
+			<div class="container price">
+				<p><span>Initial price</span></p>
+				<p>from $250,000</p>
+			</div>
+			<div class="button">
+				<a onclick="leaveAnOrder()">
+					RESERVE NOW
+				</a>
+			</div>
+			<div id="orderbar">
+			<ul>
+				<div class="close">
+					<img src="x.png" onclick="leaveAnOrder()">
+				</div>
+				<li>
+					<span>Leave a Request</span>
+				</li>
+				<li>
+					<input type="text" placeholder="Your Name">
+				</li>
+				<li>
+					<input type="text" placeholder="Your Phone Number">
+				</li>
+				<li>
+					<input type="text" placeholder="Your Email">
+				</li>
+				<li>
+					<input type="text" placeholder="Leave A Request">
+				</li>
+				<li>
+					<a href="">
+						SEND
+					</a>
+				</li>
+			</ul>
+		</div>
+		</section>
+	</div>
+</body>
+</html>
